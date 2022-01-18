@@ -1,0 +1,14 @@
+# Made in Blockbench 4.1.1
+newmtl m_0
+map_Kd texture 
+newmtl m_1
+map_Kd body 
+newmtl m_2
+map_Kd L_A 
+newmtl m_3
+map_Kd R_A 
+newmtl m_4
+map_Kd L_L 
+newmtl m_5
+map_Kd R_L 
+newmtl none
