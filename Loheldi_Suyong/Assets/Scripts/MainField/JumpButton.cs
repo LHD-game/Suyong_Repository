@@ -12,7 +12,6 @@ public class JumpButton : MonoBehaviour
         if (OnLand)
         {
             Player.AddForce(transform.up * 10000);
-            MainGameManager.exp = MainGameManager.exp + 10;
             OnLand = false;
         }
     }

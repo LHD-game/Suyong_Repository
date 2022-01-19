@@ -26,12 +26,12 @@ public class ShopCategorySelect : MonoBehaviour
         Price = 0;
         Category = 1;
         Page = 1;
-        Buttons1 = Buttons.transform.FindChild("Button").gameObject;
-        Buttons2 = Buttons.transform.FindChild("Button (1)").gameObject;
-        Buttons3 = Buttons.transform.FindChild("Button (2)").gameObject;
-        Buttons4 = Buttons.transform.FindChild("Button (3)").gameObject;
-        Buttons5 = Buttons.transform.FindChild("Button (4)").gameObject;
-        Buttons6 = Buttons.transform.FindChild("Button (5)").gameObject;
+        Buttons1 = Buttons.transform.Find("Button").gameObject;
+        Buttons2 = Buttons.transform.Find("Button (1)").gameObject;
+        Buttons3 = Buttons.transform.Find("Button (2)").gameObject;
+        Buttons4 = Buttons.transform.Find("Button (3)").gameObject;
+        Buttons5 = Buttons.transform.Find("Button (4)").gameObject;
+        Buttons6 = Buttons.transform.Find("Button (5)").gameObject;
     }
 
     // Update is called once per frame
@@ -41,32 +41,32 @@ public class ShopCategorySelect : MonoBehaviour
         {
             if (Page == 1)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "A";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "B";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "C";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "D";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "E";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "F";
             }
             if (Page == 2)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "G";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "H";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "I";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "J";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "K";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "L";
             }
         }
@@ -74,98 +74,98 @@ public class ShopCategorySelect : MonoBehaviour
         {
             if (Page == 1)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ A";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ B";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ C";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ D";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ E";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ F";
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ A";
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ B";
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ C";
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ D";
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ E";
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ F";
             }
             if (Page == 2)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ G";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ H";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ I";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ J";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ K";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¿ø¸ñ L";
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ G";
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ H";
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ I";
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ J";
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ K";
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ï¿½ L";
             }
         }
         else if (Category == 3)
         {
             if (Page == 1)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø A";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø B";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø C";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø D";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø E";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø F";
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ A";
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ B";
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ C";
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ D";
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ E";
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ F";
             }
             if (Page == 2)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø G";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø H";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø I";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø J";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø K";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "¸ð´ø L";
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ G";
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ H";
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ I";
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ J";
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ K";
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "ï¿½ï¿½ï¿½ L";
             }
         }
         else if (Category == 4)
         {
             if (Page == 1)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ A";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ B";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ C";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ D";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ E";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ F";
             }
             if (Page == 2)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ G";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ H";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ I";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ J";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ K";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
                 ButtonTxt.text = "Å°Ä¡ L";
             }
         }
@@ -173,33 +173,33 @@ public class ShopCategorySelect : MonoBehaviour
         {
             if (Page == 1)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä A";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä B";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä C";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä D";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä E";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä F";
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ A";
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ B";
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ C";
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ D";
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ E";
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ F";
             }
             if (Page == 2)
             {
-                ButtonTxt = Buttons1.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä G";
-                ButtonTxt = Buttons2.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä H";
-                ButtonTxt = Buttons3.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä I";
-                ButtonTxt = Buttons4.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä J";
-                ButtonTxt = Buttons5.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä K";
-                ButtonTxt = Buttons6.transform.FindChild("Text").GetComponent<Text>();
-                ButtonTxt.text = "Å¬·¡½Ä L";
+                ButtonTxt = Buttons1.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ G";
+                ButtonTxt = Buttons2.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ H";
+                ButtonTxt = Buttons3.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ I";
+                ButtonTxt = Buttons4.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ J";
+                ButtonTxt = Buttons5.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ K";
+                ButtonTxt = Buttons6.transform.Find("Text").GetComponent<Text>();
+                ButtonTxt.text = "Å¬ï¿½ï¿½ï¿½ï¿½ L";
             }
         }
     }
