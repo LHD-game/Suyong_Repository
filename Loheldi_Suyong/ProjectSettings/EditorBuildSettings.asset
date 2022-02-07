@@ -7,20 +7,23 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/CharacterCreation.unity
-    guid: cfe00074b571fc848935066f7b25acbf
+    guid: c0362a45691c07d48b8e530dee0db044
   - enabled: 1
     path: Assets/Scenes/GameMove.unity
-    guid: c4aa9b7add08aba40bdcf2eb0e4d0f08
+    guid: b883eeb871002704384f1301133a4327
   - enabled: 1
     path: Assets/Scenes/MiniGame/Game_Lobby.unity
-    guid: dbf47a02522b81049ae473f21834fa79
+    guid: 64ba25538ce690b4d8d55ae7767b6d9e
   - enabled: 1
     path: Assets/Scenes/MiniGame/Game_Eating.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/MiniGame/Game_Card.unity
-    guid: d6a1c340120ffe04bb187ade89fe3777
+    guid: 504e248e925c06f46bf097cd27f9a37f
   - enabled: 1
     path: Assets/Scenes/MiniGame/Game_Running.unity
-    guid: 17e9c2cde0b69e74cbc9fc39d51fa6f9
+    guid: df6d938baca1956479eece22acbf9780
+  - enabled: 1
+    path: Assets/Scenes/MiniGame/Game_Tooth.unity
+    guid: eb00000aad6dd984399d341df937d076
   m_configObjects: {}
